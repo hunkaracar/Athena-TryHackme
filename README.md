@@ -19,6 +19,7 @@ A report detailing my process of solving this Capture The Flag (CTF) challenge.
 - [Nmap](https://nmap.org/): Used for network scans and target discovery.
 - [SMBClient](https://www.samba.org/samba/docs/current/man-html/smbclient.1.html): Used for accessing SMB servers.
 - [LinPEAS](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite): Provided information about privilege escalation on Linux targets.
+- [ghidra](https://ghidra-sre.org/): Open-source reverse engineering tool used for analyzing and understanding software, particularly for security research and malware analysis.
 - [sudo -l](https://linux.die.net/man/8/sudo): Displays a list of executable commands for the user.
 - [Python HTTP Server](https://docs.python.org/3/library/http.server.html): Used to create a simple HTTP server.
 
