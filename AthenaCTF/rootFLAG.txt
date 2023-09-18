@@ -1,0 +1,3 @@
+athena@routerpanel:/root$ cat root.txt
+cat root.txt
+aecd4a3497cd2ec4bc71a2315030bd48
