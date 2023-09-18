@@ -12,6 +12,7 @@ A report detailing my process of solving this Capture The Flag (CTF) challenge.
 
 ## Tools and Commands Used
 - [Burp Suite](https://portswigger.net/burp): Used for web application security testing.
+- [curl](https://curl.se/): Used for making HTTP requests and interacting with web services. Append details about your usage here.
 - [Netcat](https://linux.die.net/man/1/nc): Used to establish and listen for network connections.
 - [Gobuster](https://github.com/OJ/gobuster): Used for directory and file scanning.
 - [Nmap](https://nmap.org/): Used for network scans and target discovery.
